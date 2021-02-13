@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+:root {
+    --green: #32CD32;
+    --silver: #C0C0C0;
+    --darkgreen: #008000;
+    --black: #000;
+    --white: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, var(--black) 0%,  var(--white) 100%);
+}
+
+h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 55px;
+    color: var(--darkgreen);
+}
+
+h2{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+}
+
+.grid div{
+    width: 200px;
+    height: 200px;
+    background-color: var(--silver);
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+.grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#player{
+    margin-top: 15px;
+    color: var(--green);
+}
+
+.box {
+    border: 3px solid var(--darkgreen);
+}
+
+.playerX {
+    background-image: url('X.png');
+}
+
+.playerO {
+    background-image: url('O.png'); 
+}
