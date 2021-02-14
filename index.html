@@ -17,19 +17,20 @@
   <h1>Let's Play This Game!</h1>
   <br>
   <br>
-  <h2 id="player">player X</h2>
-  <br>
-  <br>
-  <div class="grid">
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
+  <div class="board" id="board">
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+  </div>
+  <div class="winning-message" id="winningMessage">
+    <div data-winning-message-text></div>
+    <button id='restartButton'>Do over! I wasn't ready!</button>
   </div>
 </body>
 </html>
